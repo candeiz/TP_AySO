@@ -1,0 +1,163 @@
+ls
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "hola"
+echo $HOME
+ls
+cat README 
+cd repogit
+git clone https://github.com/candeiz/Arquitectura.Candela.Izquierdo.git
+cd Arquitectura.Candela.Izquierdo
+history
+history > historial.txt
+git add .
+git status
+git commit -m"mi "
+git config --global user.email "candeizquierdo15@gmail.com"
+git config --global user.name "candeiz"
+git commit -m"hola"
+git push
+candeiz
+git push
+vagrant halt
+exit
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:candeiz/Arquitectura.Candela.Izquierdo.git
+ls
+ls -l
+cd Arquitectura.Candela.Izquierdo
+man rm
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+cat hola.txt
+git status
+git add .
+git status
+git commit -m"agrego hola"
+git status
+git push
+git push -u origin main
+cat etc/passwd
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+head /etc/passwd
+head -n2 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls -l
+cat archivo1.txt
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin | tail -n3
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/shadow
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep -i model
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > info_proc.txt
+ls
+cat info_proc.txt 
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+man sort
+history
+
+cat bloque_cat.txt
+cat << FIN > bloque2_cat.txt
+linea 4
+linea 5
+linea 6
+-i fin
+FIN
+
+cd bc <<< 4 + 3
+bc <<< 4 + 3
+bc <<< 4+3
+ls -l
+cat hola.txt 
+echo "chau" >> hola.txt 
+cat hola.txt 
+echo "chau" > chau.txt 
+echo "hola" > hola.txt 
+cat hola.txt chau.txt > saludo.txt
+cat saludo.txt 
+exit
+pws
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+ssh-keygen
+cd repogit
+git clone git@github.com:candeiz/TP_AySO.git
+cd TP_AySO
+whoami
+echo "usuario=$(whoami)" > datos_usuario.txt
+git add .
+git status
+git commit -m"ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+head/proc/cpuinfo|grep "model name"
+head /proc/cpuinfo | grep "model name"
+echo "model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m"feat: añadiendo informacion CPU"
+grep -v nologin /etc/passwd | sort -t":" -k10
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k10)" > lista_ordenada.txt
+git status
+git add .
+git commit -m"add: lista de usuarios ordenada"
+git status
+apropos "dump traffic"
+echo "$(apropos "dump traffic") > comando_dump_net
+
+FIN
+
+q
+exit
+cd repogit
+cd TP_AySO
+echo "$(apropos "dump traffic") > comando_dump_net
+cd repogit
+cd TP_AySO
+echo "$(apropos "dump traffic")" > comando_dump_net
+ls
+cat comando_dump_net 
+git add .
+git commit -m"add: comando para capturar y analizar el trafico de red"
+ls
+cat << FIN >> README.md 
+Alumno: Candela Izquierdo
+Division: 115
+Turno: Mañana
+FIN
+
+git status
+git add .
+git commit -m"add: agregue al archivo README alumno, division y turno"
+history
+history -a $HOME/.bash_history
